@@ -9,6 +9,6 @@
   "devDependencies": {
     "codeceptjs": "^2.3.0",
     "webdriverio": "^5.12.4",
-    "@wdio/selenium-standalone-service": "^5.12.1"    
+    "@wdio/selenium-standalone-service": "^5.12.1"
   }
 }
