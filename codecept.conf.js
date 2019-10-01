@@ -5,7 +5,11 @@ exports.config = {
     WebDriver: {
       url: 'http://localhost',
       browser: 'chrome',
-      windowSize: '1920x1080'
+      desiredCapabilities: {
+          chromeOptions: {
+            args: ["--headless", "--disable-gpu","--window-size=1920x1080"]
+          }
+      }
     }
   },
   plugins: {
