@@ -5,6 +5,8 @@ exports.config = {
     WebDriver: {
       url: 'http://localhost',
       browser: 'chrome',
+      host: 'chrome',
+      port: 4444,
       desiredCapabilities: {
           chromeOptions: {
             args: ["--headless", "--disable-gpu","--window-size=1920x1080"]
